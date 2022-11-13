@@ -562,6 +562,9 @@
 		63F9E37616E0EA9D00E3B313 /* ConnectionTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9E37516E0EA9D00E3B313 /* ConnectionTypes.m */; };
 		63F9E37B16E105F200E3B313 /* CRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9E37816E105F200E3B313 /* CRTableViewCell.m */; };
 		63F9E37C16E105F200E3B313 /* ConnectionTypesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9E37A16E105F200E3B313 /* ConnectionTypesController.m */; };
+		A929B74A2921956E00B299A3 /* car_fiat500e_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A929B7492921956E00B299A3 /* car_fiat500e_black.png */; };
+		A929B74C2921957E00B299A3 /* ol_car_fiat500e_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A929B74B2921957E00B299A3 /* ol_car_fiat500e_black.png */; };
+		A929B74E2921958E00B299A3 /* map_car_fiat500e_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A929B74D2921958E00B299A3 /* map_car_fiat500e_black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1227,6 +1230,9 @@
 		63F9E37816E105F200E3B313 /* CRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTableViewCell.m; sourceTree = "<group>"; };
 		63F9E37916E105F200E3B313 /* ConnectionTypesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionTypesController.h; sourceTree = "<group>"; };
 		63F9E37A16E105F200E3B313 /* ConnectionTypesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionTypesController.m; sourceTree = "<group>"; };
+		A929B7492921956E00B299A3 /* car_fiat500e_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car_fiat500e_black.png; sourceTree = "<group>"; };
+		A929B74B2921957E00B299A3 /* ol_car_fiat500e_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ol_car_fiat500e_black.png; sourceTree = "<group>"; };
+		A929B74D2921958E00B299A3 /* map_car_fiat500e_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_car_fiat500e_black.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1347,6 +1353,7 @@
 		4D82FA70154829A9009D73E8 /* Car Map Images */ = {
 			isa = PBXGroup;
 			children = (
+				A929B74D2921958E00B299A3 /* map_car_fiat500e_black.png */,
 				0B4177672623C8EF0050EE5F /* map_car_maxus_edeliver3.png */,
 				0B921318252AC8EC00EDE1BF /* map_car_teslas_black.png */,
 				0B921317252AC8EC00EDE1BF /* map_car_teslas_blue.png */,
@@ -1773,6 +1780,7 @@
 		4DF2FF1114981FB900E488F2 /* Car Outlines */ = {
 			isa = PBXGroup;
 			children = (
+				A929B74B2921957E00B299A3 /* ol_car_fiat500e_black.png */,
 				0B4177642623C8E20050EE5F /* ol_car_maxus_edeliver3.png */,
 				0B921306252AC8DF00EDE1BF /* ol_car_teslas_black.png */,
 				0B921301252AC8DE00EDE1BF /* ol_car_teslas_blue.png */,
@@ -1882,6 +1890,7 @@
 		4DF754CA147F1D5B00C33AA4 /* Car Images */ = {
 			isa = PBXGroup;
 			children = (
+				A929B7492921956E00B299A3 /* car_fiat500e_black.png */,
 				0B4177612623C8D20050EE5F /* car_maxus_edeliver3.png */,
 				0B9212EF252AC8CD00EDE1BF /* car_teslas_black.png */,
 				0B9212EE252AC8CD00EDE1BF /* car_teslas_blue.png */,
@@ -2444,6 +2453,7 @@
 				4DCABEB0151B666100CB3D2A /* wsymbol_362.png in Resources */,
 				4DCABEB1151B666100CB3D2A /* wsymbol_365.png in Resources */,
 				4D244D53235DDE1A005E27B6 /* car_imiev_cherrybrown.png in Resources */,
+				A929B74E2921958E00B299A3 /* map_car_fiat500e_black.png in Resources */,
 				4D3C0FA3235FDA16001818BD /* ol_car_imiev_white.png in Resources */,
 				0B921313252AC8DF00EDE1BF /* ol_car_teslas_silver.png in Resources */,
 				4DCABEB2151B666100CB3D2A /* wsymbol_368.png in Resources */,
@@ -2452,6 +2462,7 @@
 				4D3C0F73235FD1C8001818BD /* map_car_kona_yellow.png in Resources */,
 				4D3C0F31235FD198001818BD /* ol_car_kiasoul_cherryblackinfernored.png in Resources */,
 				4DCABEB4151B666100CB3D2A /* wsymbol_374.png in Resources */,
+				A929B74A2921956E00B299A3 /* car_fiat500e_black.png in Resources */,
 				0B92130F252AC8DF00EDE1BF /* ol_car_teslax_white.png in Resources */,
 				4DCABEB5151B666100CB3D2A /* wsymbol_377.png in Resources */,
 				4DCABEB6151B666100CB3D2A /* wsymbol_386.png in Resources */,
@@ -2618,6 +2629,7 @@
 				63A04D2A16E2782E00471816 /* ic_pin@2x.png in Resources */,
 				4D244D60235DDE1A005E27B6 /* car_zoe_red.png in Resources */,
 				4D3C0F2C235FD198001818BD /* ol_car_zoe_lila.png in Resources */,
+				A929B74C2921957E00B299A3 /* ol_car_fiat500e_black.png in Resources */,
 				63A04D2D16E27D7B00471816 /* success.png in Resources */,
 				63A04D2E16E27D7B00471816 /* success@2x.png in Resources */,
 				63A04D3116E27D8C00471816 /* error.png in Resources */,
